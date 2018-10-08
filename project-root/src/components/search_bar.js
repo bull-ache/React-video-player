@@ -13,14 +13,14 @@ class SearchBar extends Component {
 
   render() {
     return (
+       /* this makes it a controlled component */
       <div>
-      //this makes it a controlled component
         <input
           value={this.state.term}
           onChange={event => this.setState({ term: event.target.value })} />Value of the input: {this.state.term}
-      </div>
-    );
-  }
+        </div>
+      );
+    }
 }
 
 
