@@ -23,7 +23,7 @@ class SearchBar extends Component {
     the event that occured. For our SearchBar component, we'll use the event object to get access to the value of the input,
     i.e. the text that is added.*/
 
-    return <input onChange={(event) => console.log(event.target.value)} />;
+    return <input onChange={event => console.log(event.target.value)} />;
   }
 
 }
